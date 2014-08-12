@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+html {
+    
+font-family: 'Droid Serif', serif;
+background-color: #61D7A4;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+ font-size:  38pt;   
+}
+
+.container {
+ 
+
+    text-align: center;
+    
+}

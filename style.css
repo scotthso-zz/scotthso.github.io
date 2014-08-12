@@ -1,0 +1,194 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:900);
+
+@font-face {
+	font-family: GOTHAM-BOLD;
+	src: url('Gotham-Bold.otf');
+}
+
+a:link {color:#5c5c5c;}      /* unvisited link */
+a:visited {color:#5c5c5c;}  /* visited link */
+a:hover {color:#000000;}  /* mouse over link */
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
+html, body, div, span, applet,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	height:100%
+}
+
+h1 {
+    font-size:25pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 { 
+ font-size:15pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+ 
+    font-size:13pt;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#about_me{
+    
+    margin-bottom: 50pt;
+}
+
+#sig {
+position: absolute;
+right: 1%;
+bottom: 6%;
+ 
+}
+
+#scroll {    
+font-size: 18pt;
+position: absolute;
+color:white;
+font-family: 'Open Sans', sans-serif;
+top: 94%;
+left: 48%;
+}
+
+#collections{
+    
+display:block;
+margin-bottom: 55px;
+margin-top: 70px;
+margin-left: 7%;
+}
+
+#collections a:hover{
+
+    opacity: .5;
+}
+
+#collections a{
+text-decoration:none;
+}
+
+.collection-item{
+display: inline-block;
+height: 220px;
+width: 168px;
+margin-left: 16px;
+margin-bottom: 3%;
+padding: 30px 20px;
+background-color: #333332;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 8px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+text-align: center;
+position: relative;
+overflow: hidden;
+vertical-align:bottom;
+}
+
+.block-fill{
+position: absolute;
+top: 0px;
+left: 0px;
+z-index: 0;
+min-width: 100%;
+border-radius: 8px;
+background-size: cover;
+background-position:center;
+}
+
+
+.collection-item:nth-child(3n+1) {
+margin-left: 0;
+}
+
+.collection-item-title{
+color: #ffffff;
+margin-top: 45px;
+font-family: 'Open Sans', sans-serif;
+text-transform: uppercase;
+line-height: 1.5em;
+height: 120px;
+    
+}
+
+.kind {
+    
+ font-family: 'Open Sans', sans-serif; 
+color: #fff;
+text-transform: uppercase;
+font-size: 12px;
+padding: 0;
+margin-top: 0;
+line-height: 0em;
+height: 10px;
+}
+
+.align-block{
+position: relative;
+z-index:1;
+height:100px;
+}
+
+
+#opening{
+padding: 10% 0 30px;
+background-color: #fdfdfd;
+display: block;
+position: relative;
+color:#111111;
+height:auto;
+}
+
+#openingtext{
+text-align: left;
+width: 640px;
+margin: 0 auto;
+}
+
+#openingtext p{
+font-size: 18px;
+font-family: helvetica;
+}   
+
+#social a:hover  {
+ text-decoration: underline;   
+}
+
+#social {
+ text-align: center;       
+}
+
