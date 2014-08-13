@@ -1,0 +1,11 @@
+name: Scott So
+description: Personal Website
+
+
+url: "http://scotthso.github.io"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
