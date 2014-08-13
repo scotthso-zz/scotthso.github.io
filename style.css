@@ -2,10 +2,12 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700);
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:900);
 
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:100);
+@import url(http://fonts.googleapis.com/css?family=Karla);
 @font-face {
 	font-family: GOTHAM-BOLD;
 	src: url('Gotham-Bold.otf');
@@ -13,15 +15,14 @@
 
 a:link {color:#5c5c5c;}      /* unvisited link */
 a:visited {color:#5c5c5c;}  /* visited link */
-a:hover {color:#000000;}  /* mouse over link */
+a:hover {text-decoration: underline; color:#fff;}  /* mouse over link */
 a:link {text-decoration:none;}
 a:visited {text-decoration:none;}
-a:hover {text-decoration:none;}
 a:active {text-decoration:none;}
 
 html, body, div, span, applet,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, big, cite, code,
+big, cite, code,
 del, dfn, em, font, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
@@ -156,12 +157,43 @@ z-index:1;
 height:100px;
 }
 
+a {
+ 
+    border-bottom: 5px;
+    letter-spacing: 2px;
+    
+}
+#header {
+    height:25%;
+    background-color: #000;
+    color:#fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+#name {
+height:auto;
+padding-top: 80px;
+text-align: center;   
+font-size: 110%;
+letter-spacing: 5px;
+}
+
+
+#links {
+padding-top: 70px;
+font-size: 70%; 
+letter-spacing: 0px;
+
+}
+
+
 
 #opening{
-padding: 10% 0 30px;
+
+margin-top: 100px;
 background-color: #fdfdfd;
 display: block;
-
+font-family: 'Open Sans', sans-serif;
 color:#111111;
 height:auto;
 }
@@ -174,7 +206,7 @@ margin: 0 auto;
 
 #openingtext p{
 font-size: 18px;
-font-family: helvetica;
+font-family: 'Open Sans', sans-serif;
 }   
 
 #social a:hover  {
