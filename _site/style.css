@@ -7,15 +7,11 @@
     font-family: 'Roboto Slab', serif;
     color: #fff;
     text-align: center;
-    background-color: #000;
-   
+    background-color: #000;  
 }
 
 #menu ul {
-    
     height: auto;
-    padding: 8px 0px;
-    margin: 0px;
 }
 
 #menu li { 
@@ -25,5 +21,4 @@ padding: 20px;
 
 #menu a {
 text-decoration: none;
-    padding: 8px 8px 8px 8px;
 }
