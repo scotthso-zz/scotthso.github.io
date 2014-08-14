@@ -1,7 +1,7 @@
 #sidebar li {
  
-    
-    padding-top: 50px;
+    list-style-type: none;
+padding-top: 50px;
    font-size: 11pt;
     
 }
@@ -12,6 +12,7 @@
 }
 
 #sidebar a {
+    list-style-type: none;
  text-decoration: none;  
    display: block;
     color: #000;
@@ -20,6 +21,7 @@
 
 #sidebar a:hover {
  
+    list-style-type: none;
     text-decoration: underline;
     
 }
