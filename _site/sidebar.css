@@ -1,27 +1,25 @@
-#sidebar li {
+
+#sidebar ul {
  
     list-style-type: none;
-padding-top: 50px;
-   font-size: 11pt;
     
 }
 
-#sidebar ul {
+#sidebar li {
+ 
+    padding: 20px;
+    margin-bottom: 20px;
+   font-size: 10pt;
     
-    list-style-type: none;
 }
 
 #sidebar a {
-    list-style-type: none;
  text-decoration: none;  
-   display: block;
     color: #000;
-  
 }
 
 #sidebar a:hover {
  
-    list-style-type: none;
     text-decoration: underline;
-    
+    color: #000;
 }

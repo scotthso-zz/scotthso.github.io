@@ -1,4 +1,11 @@
-li {
+
+#sidebar ul {
+ 
+    list-style-type: none;
+    
+}
+
+#sidebar li {
  
     padding: 20px;
     margin-bottom: 20px;
@@ -6,6 +13,13 @@ li {
     
 }
 
-a {
- text-decoration: none;   
+#sidebar a {
+ text-decoration: none;  
+    color: #000;
+}
+
+#sidebar a:hover {
+ 
+    text-decoration: underline;
+    color: #000;
 }
