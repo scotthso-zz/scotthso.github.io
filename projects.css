@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:100);
+@import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
 
 
 #collections body, div,
@@ -19,7 +19,7 @@ a {
 display:block;
 margin-bottom: 34px;
 margin-top: 74px;
-margin-left: 7.5%;
+margin-left: 27%;
 }
 
 #collections a:hover{
@@ -72,7 +72,7 @@ margin-left: 0;
 .collection-item-title{
 color: #fff;
 margin-top: 10px;
-font-family: 'Roboto Slab', serif;
+font-family: 'Ek Mukta', sans-serif;
 text-transform: uppercase;
 line-height: 1em;
 height: 70px;
@@ -86,7 +86,7 @@ height:100px;
 }
 
 .kind {
-font-family: 'Roboto Slab', serif;
+font-family: 'Ek Mukta', sans-serif;
 color: #fff;
 text-transform: uppercase;
 font-size: 12px;
