@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
 
 #sidebar ul {
  
@@ -7,9 +8,7 @@
 
 #sidebar li {
  
-    
-    padding-top: 60px;
-    
+    padding-top: 60px; 
     padding-right:30px;
     font-size: 10pt;
     
@@ -17,7 +16,8 @@
 
 #sidebar a {
     
-font-size:11pt;
+font-size:10pt;
+font-family: 'Ek Mukta', sans-serif;
 text-decoration: none;  
 color: #000;
 }
