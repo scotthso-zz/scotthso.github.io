@@ -7,15 +7,19 @@
 
 #sidebar li {
  
-    padding: 20px;
-    margin-bottom: 20px;
-   font-size: 10pt;
+    
+    padding-top: 60px;
+    
+    padding-right:30px;
+    font-size: 10pt;
     
 }
 
 #sidebar a {
- text-decoration: none;  
-    color: #000;
+    
+font-size:11pt;
+text-decoration: none;  
+color: #000;
 }
 
 #sidebar a:hover {
