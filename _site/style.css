@@ -65,7 +65,7 @@ font-size: 70%;
 letter-spacing: 0px;
 }
 
-body#projects, a#projectnav, a#mindnav {
+body#projects, a#projectnav, a#mindnav, a#menav, a#creativenav {
  
     text-decoration: underline;
     color: #fff;
