@@ -8,10 +8,12 @@
 
 #sidebar li {
  
-    padding-top: 60px; 
-    padding-right:30px;
-    font-size: 10pt;
+    padding-top: 30px; 
+    padding-bottom: 30px;
     
+    margin-left: 65px;
+    font-size: 10pt;
+    text-align: center;
 }
 
 #sidebar a {
@@ -26,4 +28,8 @@ color: #000;
  
     text-decoration: underline;
     color: #000;
+}
+
+.verticalLine {
+    border-left: thin solid #000;
 }
