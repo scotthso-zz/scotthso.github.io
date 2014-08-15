@@ -2,10 +2,15 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="/mind.css">
+
+<h1>Take a journey into my mind</h1>
 {% for post in site.posts limit: 10 %}
 
 <body id="mind">
+    
 <div class="row-fluid">
+    
   <div class="span12">
     <h2>{{ post.title }}</h2>
     <h4>{{ post.date | date_to_long_string }}</h4>

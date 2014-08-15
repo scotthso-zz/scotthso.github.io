@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
+
+#mind {
+    font-family: 'Ek Mukta', sans-serif;
+}
+
+h1 {
+    margin-left: 7%;
+    margin-top: 30px;
+    font-size: 20pt;
+}
+
+h2 {
+ font-size:14pt;   
+ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+ font-size:8pt;   
+
+}
+
+.span12{ 
+    
+    margin-top:5%;
+    margin-left: 7%;
+}
+
+.row-fluid{
+
+}
+
