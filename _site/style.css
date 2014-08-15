@@ -64,3 +64,9 @@ padding-top: 70px;
 font-size: 70%; 
 letter-spacing: 0px;
 }
+
+body#projects, a#projectnav, a#mindnav {
+ 
+    text-decoration: underline;
+    color: #fff;
+}
