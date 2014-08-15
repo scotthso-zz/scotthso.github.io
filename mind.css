@@ -4,13 +4,13 @@
     font-family: 'Ek Mukta', sans-serif;
 }
 
-h1 {
+#mind h1 {
     margin-left: 7%;
     margin-top: 30px;
     font-size: 20pt;
 }
 
-h2 {
+#mind h2 {
  font-size:14pt;   
  
     margin: 0;
@@ -19,7 +19,7 @@ h2 {
     outline: 0;
 }
 
-h4 {
+#mind h4 {
     margin: 0;
     padding: 0;
     border: 0;
