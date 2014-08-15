@@ -1,0 +1,17 @@
+{% include header.html %}
+
+<div style ="float:left; width: 80%; margin-left: 1%;">
+
+     <h1>{{ page.title }}</h1>
+    <p class="muted">{{ page.date | date_to_long_string }}</p>
+
+  {{ content }}
+    
+</div>
+
+<div style ="float:right; width 20%; margin-right: 5%">
+
+    {% include sidebar.html %}
+</div>
+
+ {% include footer.html %}

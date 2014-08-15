@@ -1,6 +1,6 @@
 ---
 title: Lorem Ipsum Dolor Sit Amet
-layout: default
+layout: post
 ---
 
 #Lorem Ipsum Dolor Sit Amet
