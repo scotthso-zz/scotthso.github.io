@@ -4,7 +4,7 @@ description: Personal Website
 
 url: "http://scotthso.github.io"
 
-paginate: 10
+paginate: 3
 
 markdown: rdiscount
 permalink: pretty
