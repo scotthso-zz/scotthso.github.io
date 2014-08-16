@@ -3,7 +3,7 @@
 #sidebar ul {
  
     list-style-type: none;
-    
+ 
 }
 
 #sidebar li {
@@ -12,6 +12,7 @@
     padding-bottom: 30px;
     
     margin-left: 65px;
+    
     font-size: 10pt;
     text-align: center;
 }

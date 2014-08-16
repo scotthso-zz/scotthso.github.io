@@ -53,8 +53,8 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 }
 
 #name {
-height:auto;
-padding-top: 80px;
+
+padding-top: 110px;
 text-align: center;   
 font-size: 13pt;
 letter-spacing: 5px;
@@ -62,8 +62,8 @@ letter-spacing: 5px;
 
 
 #links {
-padding-top: 70px;
-font-size: 70%; 
+padding-top: 50px;
+font-size: 11pt; 
 letter-spacing: 0px;
 }
 
