@@ -11,16 +11,24 @@
  -moz-border-radius: 100px;
     
     position: absolute;
-   top: 30%;
+   
+    top: 10%;
    left: 50%;
    
-    margin-top: 40px;
+    margin-top: 200px;
     margin-left: -100px;
     
 }
 
+#paragraph {
+ 
+    margin-top: 350px;
+}
 #me p {
 
-    font-family: 'Ek Mukta', sans-serif;
+font-family: 'Ek Mukta', sans-serif;
+    
+    margin-left: 40%;
+    margin-right: 15%;
     
 }
