@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
+
 .img-circular{
  width: 200px;
  height: 200px;
@@ -9,9 +11,16 @@
  -moz-border-radius: 100px;
     
     position: absolute;
-   top: 39%;
+   top: 30%;
    left: 50%;
    
+    margin-top: 40px;
     margin-left: -100px;
+    
+}
+
+#me p {
+
+    font-family: 'Ek Mukta', sans-serif;
     
 }
