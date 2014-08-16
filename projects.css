@@ -21,7 +21,7 @@ margin-bottom: 34px;
 margin-top: 74px;
     position:absolute;
     left:50%;
-    margin-left: -475px;
+    margin-left: -408px;
     
     padding-right: 200px;
     
@@ -38,10 +38,10 @@ text-decoration:none;
 
 .collection-item{
 display: inline-block;
-height: 150px;
-width: 150px;
+height: 130px;
+width: 130px;
 margin-bottom: 2%;
-margin-right: 10px;
+margin-right: 6px;
     
 padding: 30px 10px;
 background-color: #333332;
@@ -81,6 +81,7 @@ margin-left: 0;
 color: #fff;
 margin-top: 10px;
 font-family: 'Ek Mukta', sans-serif;
+    font-size: 10pt;
 text-transform: uppercase;
 line-height: 1em;
 height: 70px;
@@ -97,7 +98,7 @@ height:100px;
 font-family: 'Ek Mukta', sans-serif;
 color: #fff;
 text-transform: uppercase;
-font-size: 12px;
+font-size: 10px;
 padding: 0;
 margin-top: 0;
 line-height: 0em;
