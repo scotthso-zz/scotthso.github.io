@@ -5,20 +5,48 @@
 }
 
 #mind h1 {
-    margin-left: 7%;
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
     margin-top: 30px;
     font-size: 20pt;
 }
 
+#mind #desc {
+ position: relative;
+    left: 60%;
+    margin-left: -65px;
+    margin-top: -25px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
 #mind h2 {
- font-size:14pt;   
+    position: relative;
+ left: 10%;
+    font-size:14pt; 
+    
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
 }
 
+#mind h3 {
+    position: relative;
+ left: 10%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+ font-size:10pt;   
+
+}
+
 #mind h4 {
+    position: relative;
+ left: 10%;
     margin: 0;
     padding: 0;
     border: 0;
@@ -26,5 +54,8 @@
  font-size:8pt;   
 
 }
-
+.span12 a{
+position: relative;
+ left: 10%;
+}
 
