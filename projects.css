@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
 
 
-#collections body, div,
+#collections body,
 a {
 	border: 0;
 	font-family: inherit;
@@ -12,18 +12,21 @@ a {
 	outline: 0;
 	padding: 0;
 	vertical-align: baseline;
-	height:100%
+
+}
+
+#collections div {
+    height: 100%;
 }
 
 #collections{   
-display:block;
-margin-bottom: 34px;
+
+
 margin-top: 74px;
     position:absolute;
     left:50%;
-    margin-left: -408px;
-    
-    padding-right: 200px;
+    margin-left: -408px; 
+    padding-right: 100px;
     
 
 }
