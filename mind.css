@@ -7,15 +7,15 @@
 #mind h1 {
     position: relative;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -162px;
     margin-top: 30px;
     font-size: 20pt;
 }
 
 #mind #desc {
  position: relative;
-    left: 60%;
-    margin-left: -85px;
+    left: 50%;
+    margin-left: -100px;
     margin-top: -25px;
     padding: 0;
     border: 0;
