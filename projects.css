@@ -12,12 +12,12 @@ a {
 	outline: 0;
 	padding: 0;
 	vertical-align: baseline;
- 
+	height:100%
 
 }
 
 #collections div {
-  
+  height: 100%;
 }
 
 #collections{   
