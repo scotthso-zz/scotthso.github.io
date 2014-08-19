@@ -1,0 +1,24 @@
+___
+Title: 10 Things that I Wish I had known in High School
+layout: post
+excerpt: Looking back at my High School career, here are some things that I wish I had done or known. 
+---
+
+**1. Everything that mom says is right**
+
+**2. Popularity isn't worth it**
+
+**3. Summer isn't play time**
+
+**4. Try to be the smartest in every class**
+
+**5. Suck up to teachers**
+
+**6. Get more hobbies**
+
+**7. Don't take education for granted**
+
+**8. When it's time to work it's time work**
+
+**9. Don't be limited by your age**
+
