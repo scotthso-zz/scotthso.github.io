@@ -33,16 +33,14 @@ h1 {
  
     font-weight: 300;
     margin-top: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 #beginning {
 
     margin-top: 28px;
     margin-right: 320px;
-    line-height: 20px;
-    
-
+    line-height: 20px; 
 }
 
 .muted {
