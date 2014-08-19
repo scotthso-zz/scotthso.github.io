@@ -1,6 +1,5 @@
 ___
 title: 10 Things that I wish I had known in High School
-layout: default
 excerpt: Looking back at my High School career, here are some things that I wish I had done or known. 
 ---
 
