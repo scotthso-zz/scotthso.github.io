@@ -8,8 +8,20 @@
     left: 10%;
 }
 
+.push {
+ 
+    height: 100px;
+}
+
+#post {
+ min-height: 100%;
+height: auto !important;
+height: 100%;
+    margin: 0 auto -100px;
+}
+
 h1 {
-    font-size: 20pt;    
+    font-size: 19pt;    
     margin-top: 60px;
     font-weight: 500;
 }
@@ -17,18 +29,21 @@ h1 {
 #post li {
  list-style-type:decimal;
     font-weight:300;
+    font-size: 11pt;
 }
 
 #post ul {
  
     font-weight: 300;
-    margin-top: 40px;
+    margin-top: 30px;
 
 }
 
 #beginning {
 
-    margin-top: 40px;
+    margin-top: 28px;
+    margin-right: 320px;
+    line-height: 20px;
     
 
 }

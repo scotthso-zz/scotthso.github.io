@@ -2,6 +2,7 @@
 
 #mind {
     font-family: 'Ek Mukta', sans-serif;
+    
 }
 
 #mind h1 {
@@ -58,3 +59,7 @@ position: relative;
  left: 10%;
 }
 
+.row-fluid {
+    margin-top: 60px;
+    margin-left: 5%;
+}

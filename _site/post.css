@@ -8,6 +8,18 @@
     left: 10%;
 }
 
+.push {
+ 
+    height: 100px;
+}
+
+#post {
+ min-height: 100%;
+height: auto !important;
+height: 100%;
+    margin: 0 auto -100px;
+}
+
 h1 {
     font-size: 20pt;    
     margin-top: 60px;
@@ -29,6 +41,8 @@ h1 {
 #beginning {
 
     margin-top: 40px;
+    margin-right: 320px;
+    line-height: 20px;
     
 
 }
