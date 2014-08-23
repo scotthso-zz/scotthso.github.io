@@ -23,22 +23,21 @@ min-height:100%;
 overflow: scroll;
  margin-bottom: -100px;
 position: relative;
-    left: 10%;
+    left: 30%;
 }
 
 h1 {
     font-size: 19pt;    
     margin-top: 60px;
     font-weight: 500;
-    left: 10%;
+    left: 50%;
+    margin-left: -250px;
 }
 
 h3 {
  
     font-size: 11pt;
-    
-
-    margin-right:320px;
+    width:38%;
 }
 
 #post li {
@@ -58,7 +57,7 @@ h3 {
 #beginning {
 
     margin-top: 28px;
-    margin-right: 320px;
+    width:42%;
     line-height: 20px; 
 }
 
@@ -66,7 +65,8 @@ h3 {
  
     margin-top: -5px;
     margin-bottom: 5px;
-    left: 10%;
+    left: 50%;
+    margin-left: -50px;
 }
 
 .clearfooter{
