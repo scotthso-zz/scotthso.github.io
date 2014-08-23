@@ -1,22 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300,500);
 
-
+html,body {
+ 
+    height:100%;
+    margin:0;
+    padding:0;
+}
 #post ul, h1, h2, h3, p,#beginning {
     font-family: 'Ek Mukta', sans-serif; 
     font-weight: 300;
     position: relative;
-    
+     
 }
 
 
 #container {
-
-    min-height: 80%;
+min-height:100%;
     position: relative;
 }
 
 #post {
-height:800px;
 overflow: scroll;
  margin-bottom: -100px;
 position: relative;
@@ -33,7 +36,7 @@ h1 {
 h3 {
  
     font-size: 11pt;
-    margin-left: -10%:
+    
 
     margin-right:320px;
 }

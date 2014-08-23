@@ -1,11 +1,20 @@
+<html>
+    
+    <body>
+<div id="container">
 {% include header.html %}
 
 <link rel="stylesheet" href="/post.css">
-     <h1>{{ page.title }}</h1>
+     
+
+<h1>{{ page.title }}</h1>
     <p class="muted">{{ page.date | date_to_long_string }}</p>
 
-<div id="container"></div>
+<div id ="content">
   {{ content }}
-
 </div>
+
  {% include footer.html %}
+    </div>
+        </body>
+    </html>
