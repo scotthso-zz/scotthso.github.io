@@ -9,6 +9,11 @@
 }
 
 
+#container {
+
+    min-height: 80%;
+    position: relative;
+}
 
 #post {
 height:800px;
@@ -29,7 +34,7 @@ h3 {
  
     font-size: 11pt;
     margin-left: -10%:
-    font-weight:300;
+
     margin-right:320px;
 }
 
