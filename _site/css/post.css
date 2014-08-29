@@ -1,28 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300,500);
 
 html,body {
- 
     height:100%;
     margin:0;
     padding:0;
 }
+
 #post ul, h1, h2, h3, p,#beginning {
     font-family: 'Ek Mukta', sans-serif; 
     font-weight: 300;
-    position: relative;
-     
+    position: relative;   
 }
 
-
 #container {
-min-height:100%;
+    min-height:100%;
     position: relative;
 }
 
 #post {
-overflow: scroll;
- margin-bottom: -100px;
-position: relative;
+    overflow: scroll;
+    margin-bottom: -100px;
+    position: relative;
     left: 30%;
 }
 
@@ -34,19 +32,17 @@ h1 {
 }
 
 h3 {
- 
     font-size: 11pt;
     width:38%;
 }
 
 #post li {
- list-style-type:decimal;
+    list-style-type:decimal;
     font-weight:300;
     font-size: 11pt;
 }
 
 #post ul {
- 
     font-weight: 300;
     margin-top: 30px;
     margin-bottom: 200px;
@@ -54,14 +50,12 @@ h3 {
 
 
 #beginning {
-
     margin-top: 28px;
     width:42%;
     line-height: 20px; 
 }
 
 .muted {
- 
     margin-top: -5px;
     margin-bottom: 5px;
     left: 50%;
@@ -69,15 +63,12 @@ h3 {
 }
 
 .clearfooter{
- height:200px;
+    height:200px;
     clear:both;
 }
 
 #disqus_thread {
-
-   margin-left: 25%;
+    margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 50px;
-        
-  
 }
