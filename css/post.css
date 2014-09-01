@@ -66,3 +66,7 @@ h3 {
     height:200px;
     clear:both;
 }
+
+#disqus_thread {
+ position: relative;
+}
