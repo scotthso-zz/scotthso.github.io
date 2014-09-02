@@ -68,7 +68,7 @@ h3 {
 }
 
 #disqus_thread {
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 50px;
+ position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
 }
