@@ -48,7 +48,7 @@ html,body {
 #header a {
     text-decoration: none;   
     color: #fff;
-    font-size: 11px;
+    font-size: 10px;
     font-family: 'Lato', sans-serif;
     border-color: rgba(255, 0, 0, 0);
     transition: border-color 1.5s;
@@ -81,7 +81,7 @@ letter-spacing: 7px;
 
 #links {
 padding-top: 10px;
-text-align: center;
+
 letter-spacing: 0px;
 }
 
