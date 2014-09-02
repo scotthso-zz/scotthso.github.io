@@ -3,7 +3,6 @@
 
 html, body, body, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
     margin: 0;
-
     border: 0;
     outline: 0;
     font-size: 100%;
@@ -43,14 +42,13 @@ html,body {
 #header li {
     display: inline;
     padding: 20px;
-
    font-size: 10pt;
 }
 
 #header a {
- text-decoration: none;   
+    text-decoration: none;   
     color: #fff;
-    font-size: 10px;
+    font-size: 11px;
     font-family: 'Lato', sans-serif;
     border-color: rgba(255, 0, 0, 0);
     transition: border-color 1.5s;
@@ -74,7 +72,6 @@ html,body {
 }
 
 #name {
-
 padding-top: 60px;
 text-align: center;   
 font-size: 11pt;
@@ -84,7 +81,7 @@ letter-spacing: 7px;
 
 #links {
 padding-top: 10px;
-
+text-align: center;
 letter-spacing: 0px;
 }
 
