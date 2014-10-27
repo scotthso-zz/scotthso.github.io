@@ -19,6 +19,10 @@
         margin-bottom:-20px;
     }
     
+    #header-mobile img {
+        text-align: center;
+    }
+    
     article #title img{
         display:none;
     }
