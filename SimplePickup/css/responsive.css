@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 400px), only screen and (max-width: 635px){
+@media only screen and (max-device-width: 400px), only screen and (max-width: 420px), only screen and (max-width: 40em) {
 
     #social-icons{
         display:none;
@@ -46,11 +46,11 @@ box-shadow:         0px 3px 3px 0px rgba(30, 30, 30, 0.75);
     
     nav li {
         padding: 2px;
-        font-size: 8pt;        
+        font-size: 7pt;        
     }
     
     nav ul {
-        padding:7px;
+        padding:5px;
     }
     
     #side-buttons img {
@@ -83,7 +83,7 @@ box-shadow:         0px 3px 3px 0px rgba(30, 30, 30, 0.75);
 	padding-bottom: 150px;
     margin-right: 8%;
     margin-left: 8%;
-    margin-top: 50px;
+    margin-top: 40px;
     
     }
  
@@ -193,6 +193,7 @@ box-shadow:         0px 3px 3px 0px rgba(30, 30, 30, 0.75);
     
 }
     
+
 
 
 @media only screen and (min-width: 813px) and (max-width: 959px) {
