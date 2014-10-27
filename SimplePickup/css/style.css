@@ -7,17 +7,18 @@ html, body {height: 100%;}
 img {
     max-width: 100%;
 }
+
 #title img {
     max-width:100%;
     max-height: 100%;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 20px;
    
 }
 
 
 #side-buttons {
- position:absolute;
+    position:absolute;
     left:0;
 }
 
@@ -25,15 +26,16 @@ img {
     list-style-type: none;
     margin-top: 180px; 
     padding:0;
-    max-width: 100%;
+
 }
 
 
 #side-buttons img {
-    
+    display: block;
  
-    display:block; 
-    float:left;
+  width:100%;
+ 
+
     margin-left: 1px;
      -webkit-box-shadow: 0px 3px 8px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    0px 3px 8px 0px rgba(50, 50, 50, 0.75);
@@ -41,10 +43,6 @@ box-shadow:         0px 3px 8px 0px rgba(30, 30, 30, 0.75);
     z-index:999;
 }
 
-
-#social-icons img { 
-    max-width: 100%;
-}
 
 
 article {overflow:auto;
@@ -61,10 +59,8 @@ article {overflow:auto;
 }
 
 #social-links {
-
     margin-top: 9px;
-    float: right;
-    
+    float: right;  
 }
 
 
@@ -72,7 +68,7 @@ article {overflow:auto;
     margin:0;
     display: inline;
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 25pt;
 }
 
 article h2 {
@@ -80,7 +76,7 @@ article h2 {
     font-family: 'Noto Serif', serif; 
     font-style: italic;
     font-weight: 100;
-    font-size: 1vw;
+    font-size: 10pt;
     color: #C0C0C0;
 }
 
@@ -115,7 +111,7 @@ article p {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     letter-spacing: 1.6px;
-    font-size: 8pt;
+    font-size: 7pt;
 }
 
 
@@ -129,6 +125,7 @@ article p {
     color: #fff;
     display: inline;
     padding: 10px;
+    font-size: 8pt;
 }
 
 
@@ -145,7 +142,7 @@ nav {
    -webkit-box-shadow: 0px 3px 8px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    0px 3px 8px 0px rgba(50, 50, 50, 0.75);
 box-shadow:         0px 3px 8px 0px rgba(30, 30, 30, 0.75);
-    z-index:999;
+    
     clear:both;
 }
 
@@ -163,11 +160,35 @@ nav li{
    
 }
 
+#header {
+ position:relative;
+}
+
 
 #social-icons{
- float:right;
-    
+    z-index:10;
+    right:10px;   
 }
+
+#social-icons img { 
+    max-width: 100%;
+    height: auto;
+    display:block;
+}
+
+nav, #social-icons  {
+    
+    position:absolute;
+
+}
+
+#social-icons li {
+    display: inline;
+    padding:3px;
+    float:right;   
+}
+
+
 
 nav a {
     color: #fff;

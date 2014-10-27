@@ -1,5 +1,6 @@
-@media only screen and (max-device-width: 400px) {
 
+
+@media only screen and (max-device-width: 400px), only screen and (max-width: 400px) {
 
     #social-icons{
         display:none;
@@ -15,7 +16,7 @@
     }
     
     #header-mobile #title{
-    margin-top:-15px;
+        margin-top:-70px;
         margin-bottom:-20px;
     }
     
@@ -63,31 +64,28 @@
     }
     
     article p {
-    font-size: 10pt;
+    font-size: 12pt;
     }
     
     article {overflow:auto;
 	padding-bottom: 150px;
     margin-right: 8%;
     margin-left: 8%;
-    margin-top: 6%
+    margin-top: 50px;
     
     }
  
     #footer a{
-        font-size: 5pt;
+        font-size:  5pt;
         letter-spacing: 0px;
     }
     
    #footer ul {
-
-    padding: 5px;
-
-}
-
-#footer li {   
-
     padding: 5px;
 }
+
+    #footer li {   
+    padding: 5px;
+    }
 }
     
