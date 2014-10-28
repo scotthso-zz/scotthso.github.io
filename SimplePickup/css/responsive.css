@@ -1,7 +1,5 @@
-/* Optimized for Safari */
-
 /* Media Query for mobile */
-@media only screen and (max-device-width: 400px), only screen and (max-width: 420px), only screen and (max-width: 26em) {
+@media only screen and (max-device-width: 400px), only screen and (max-width: 420px) {
 	
     #social-icons{
 		display: none;
@@ -31,12 +29,12 @@
     nav {
 		background-color: #000;
 		box-shadow: 0px 3px 3px 0px rgba(30, 30, 30, 0.75);
-		clear: both;
-		moz-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.75);
-		position: relative;
-		text-align: center;
-		webkit-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.75);
+		  moz-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.75);
+		      webkit-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.75);
+        position: relative;
+		text-align: center;    
 		width: 100%;
+        clear: both;
 	}
 	
     nav a {
@@ -101,7 +99,7 @@
 
 
 /* Media Query for responsive web */
-@media only screen and (min-width: 636px) and (max-width: 812px), only screen and (max-width: 39em) and (max-width: 51em) {
+@media only screen and (min-width: 636px) and (max-width: 812px) {
 	
     #social-icons {
 		display: none;
@@ -126,11 +124,11 @@
 	
     nav {
 		background-color: #000;
-		box-shadow: 0px 3px 3px 0px rgba(30, 30, 30, 0.75);
-		moz-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.75);
-		position: relative;
-		text-align: center;
-		webkit-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.75);
+        box-shadow: 0px 3px 3px 0px rgba(30, 30, 30, 0.75);
+		  moz-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.75);
+		      webkit-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.75);
+        position: relative;
+		text-align: center;	
 		width: 100%;
 	}
 	
@@ -191,7 +189,7 @@
 }
 
 /* Media Query for responsive web */
-@media only screen and (min-width: 813px) and (max-width: 959px), only screen and (max-width: 50.8em) and (max-width: 59.9em) {
+@media only screen and (min-width: 813px) and (max-width: 959px) {
 	
     nav li {
 		padding: 0px;
@@ -207,7 +205,7 @@
 }
 
 /* Media Query for responsive web */
-@media only screen and (min-width: 960px) and (max-width: 1030px), only screen and (max-width: 50.8em) and (max-width: 64.375em) {
+@media only screen and (min-width: 960px) and (max-width: 1030px) {
 	
     nav li {
 		padding: 2px;
@@ -223,7 +221,7 @@
 }
 
 /* Media Query for responsive web */
-@media only screen and (min-width: 1031px) and (max-width: 1150px), only screen and (max-width: 64.438em) and (max-width: 71.875em) {
+@media only screen and (min-width: 1031px) and (max-width: 1150px) {
 	nav li {
 		padding: 5px;
 	}
@@ -234,7 +232,7 @@
 }
 
 /* Media Query for responsive web for larger screens */
-@media only screen and (min-width: 1151px), only screen and (min-width: 71.938em) {
+@media only screen and (min-width: 1151px) {
 	
     .container {
 		height: 350px;
