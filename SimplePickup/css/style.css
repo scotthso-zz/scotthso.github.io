@@ -1,0 +1,207 @@
+/* Navigation Font and main header */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+/* Paragraph Font */
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic);
+/* Author Font */
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif:400italic);
+
+html, body {height: 100%;}
+
+/* Navigation Bar */
+nav {
+    background-color: #000;
+    position:relative;
+    text-align: center;  
+    width: 100%;
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 3px 8px 0px rgba(50, 50, 50, 0.75);
+            box-shadow:         0px 3px 8px 0px rgba(30, 30, 30, 0.75);
+    clear:both;
+}
+
+nav ul {
+    padding: 16px;
+    margin: 0 auto;
+    display:inline-block;
+}
+
+nav li{     
+    color: #fff;
+    display: inline;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.6px;
+    font-size: 9pt; 
+    font-weight: 600;
+}
+
+nav a:hover {
+    background-color: #E54400;
+}
+
+/* Nav bar social icons */
+#social-icons{
+    z-index:10;
+    right:10px;   
+}
+
+nav, #social-icons  {   
+    position:absolute;
+}
+
+#social-icons img { 
+    max-width: 100%;
+    height: auto;
+    display:block;
+    padding:1px;
+}
+
+#social-icons li {
+    margin-top:-3px;
+    display: inline;
+    float:right;   
+}
+
+/* Side Buttons */
+#side-buttons {
+    position:absolute;
+    left:0;
+}
+
+#side-buttons ul {
+    list-style-type: none;
+    margin-top: 180px; 
+    padding:0;
+}
+
+#side-buttons img {
+    display: block;
+    width:100%;
+    /* Shadows */
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 3px 8px 0px rgba(50, 50, 50, 0.75);
+            box-shadow:         0px 3px 8px 0px rgba(30, 30, 30, 0.75);
+    z-index:999;
+}
+
+article {
+    overflow:auto;
+	padding-bottom: 150px;
+    margin: 0 20% 0 20%;
+}  
+
+/* Simple Pickup logo */
+#logo img {
+    max-width:100%;
+    max-height: 100%;
+    margin: 80px 0 20px 0; 
+}
+
+/* Article Image */
+/* Image Container */
+.container {
+    width:100%;
+    height:250px;
+    overflow:hidden;
+}
+
+.container img {
+    margin-top: -10%;
+    max-width: 100%;
+}
+
+/* Facebook and Twitter share links */
+#social-links {
+    margin-top: 9px;
+    float: right;  
+}
+
+.article-title, #social-links {   
+    display: inline;  
+}
+
+/* Keep Twitter button inline with Facebook button */
+.twitter-share-button[style] { 
+    vertical-align: text-bottom !important; 
+    margin-right: -25px;
+}
+
+/* Transform size of the buttons */
+iframe {
+    transform: scale(.8);
+    -ms-transform: scale(.8); 
+        -webkit-transform: scale(.8); 
+            -o-transform: scale(.8); 
+                -moz-transform: scale(.8); 
+    transform-origin: top left;
+    -ms-transform-origin: top left;
+        -webkit-transform-origin: top left;
+            -o-transform-origin: top left;
+                -webkit-transform-origin: top left;
+}
+
+/* Article Title */
+.article-title h1 {
+    display: inline;
+    font-weight: bold;
+    font-size: 23pt;
+}
+
+/* Article Author*/
+article h2 {
+    margin-top: -3px;
+    font-family: 'Noto Serif', serif; 
+    font-style: italic;
+    font-weight: 100;
+    font-size: 9pt;
+    color: #C0C0C0;
+}
+
+/* Article Paragraph*/
+article p {
+    font-size: 2vw;
+    font-family: 'Gentium Basic', serif;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    background: #000;
+    position: fixed;
+    bottom: 0;
+} 
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.6px;
+    font-size: 6pt;
+}
+
+footer ul {
+    height:auto;
+    padding: 8px;
+    margin: 0;
+}
+
+footer li {   
+    color: #fff;
+    display: inline;
+    padding: 10px;
+    font-size: 8pt;
+}
+
+/* Hide Header mobile version */
+.header-mobile {
+    display:none;
+}
+
