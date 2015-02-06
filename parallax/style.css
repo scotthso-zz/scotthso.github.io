@@ -1,0 +1,27 @@
+/* For a full explanation of this code, please refer to the blogpost at http://www.bram.us/2014/01/01/skrollr-css-animations-linked-to-scroll-position/ */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff fixed url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEX4+Pj09PQf/c7fAAAAGklEQVR4Xq3MIQEAAADDIPqX/kvMIMEWEm8O7b0/wewc/NcAAAAASUVORK5CYII=) repeat;
+}
+
+div {
+  overflow: hidden;
+  text-align: center;
+}
+
+#box1 {
+  position: fixed;
+  background: blue;
+  margin: auto;
+  top: 0; left: 0; right: 0;  bottom: 0;
+}
+
+#box2 {
+  position: fixed;
+  background: red;
+  height: 100px;
+  width: 100%;
+  margin-top: 50px;
+}
