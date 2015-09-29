@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
 
 
-#collections body,
+.collections body,
 a {
 	border: 0;
 	font-family: inherit;
@@ -16,11 +16,11 @@ a {
 
 }
 
-#collections div {
+.#collections div {
 height: 100%;
 }
 
-#collections{   
+.collections{   
 
 margin-top: 74px;
 position:absolute;
@@ -31,11 +31,11 @@ padding-right: 100px;
 
 }
 
-#collections a:hover{
+.collections a:hover{
 opacity:0.5;
 }
 
-#collections a{
+.collections a{
 text-decoration:none;
 }
 
