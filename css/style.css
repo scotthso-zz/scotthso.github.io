@@ -16,7 +16,7 @@ html,body {
 
 }
 
-#container {
+.container {
 
     min-height: 80%;
     position: relative;
@@ -85,7 +85,7 @@ padding-top: 10px;
 letter-spacing: 0px;
 }
 
-body#projects a#projectnav, body#mind a#mindnav, body#me a#menav, body#creative a#creativenav {
+body.projects a.projectnav, body#mind a#mindnav, body#me a#menav, body#creative a#creativenav {
 
     color: #fff;
     padding-bottom: 3px;
