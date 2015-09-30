@@ -71,16 +71,18 @@ body {
   backface-visibility: hidden;
   position: relative;
   height: 130px;
+  float: left;
 }
-/* line 73, ../sass/project.scss */
+/* line 74, ../sass/project.scss */
 .projects .collections .collection-item .info {
   position: relative;
   z-index: 1;
   height: 100px;
   bottom: 0px;
   background-color: #fff;
+  clear: both;
 }
-/* line 80, ../sass/project.scss */
+/* line 82, ../sass/project.scss */
 .projects .collections .collection-item .info .collection-item-title {
   color: #fff;
   margin-top: 10px;
@@ -90,7 +92,7 @@ body {
   line-height: 1em;
   height: 70px;
 }
-/* line 90, ../sass/project.scss */
+/* line 92, ../sass/project.scss */
 .projects .collections .collection-item .info .kind {
   font-family: 'Ek Mukta', sans-serif;
   color: #fff;

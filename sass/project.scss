@@ -56,7 +56,7 @@ margin-left: auto;
 		width:25%;
 		text-align: center;
 		overflow: hidden;
-		padding:-2px;
+		padding: -2px;
 
 			.image {
 				
@@ -68,6 +68,7 @@ margin-left: auto;
 				backface-visibility: hidden;
 				position: relative;
 				height:130px;
+				float:left;
 			}
 
 			.info{
@@ -76,6 +77,7 @@ margin-left: auto;
 				height:100px;
 				bottom: 0px;
 				background-color: #fff;
+				clear:both;
 
 				.collection-item-title{
 					color: #fff;
