@@ -23,7 +23,7 @@ html,body {
 }
 
 
-#header {
+.header {
     
     background-color: #000;
     color:#fff;
@@ -31,7 +31,7 @@ html,body {
 
 }
 
-#header ul {
+.header ul {
  
     height: auto;
     padding: 10px 0px;
@@ -39,13 +39,13 @@ html,body {
     margin: 0px;
 }
 
-#header li {
+.header li {
     display: inline;
     padding: 20px;
    font-size: 10pt;
 }
 
-#header a {
+.header a {
     text-decoration: none;   
     color: #fff;
     font-size: 10px;
@@ -56,7 +56,7 @@ html,body {
  
 }
 
-#header a:hover {
+.header a:hover {
  
     padding-bottom: 3px;
     border-bottom: 1px solid;
@@ -65,7 +65,7 @@ html,body {
     color: #fff;
 }
 
-#header a:visited {
+.header a:visited {
  
     text-decoration: none;
     color:#fff;
