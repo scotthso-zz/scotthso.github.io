@@ -1,38 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
-/* line 4, ../sass/project.scss */
-.collections body,
-a {
-  border: 0;
-  font-family: inherit;
-  font-size: 100%;
-  font-style: inherit;
-  font-weight: inherit;
-  margin: 0;
-  outline: 0;
-  padding: 0;
-  vertical-align: baseline;
-  height: 100%;
-}
-
-/* line 19, ../sass/project.scss */
-.collections div {
-  height: 100%;
-}
-
-/* line 23, ../sass/project.scss */
+/* line 5, ../sass/project.scss */
 .collections {
   margin-top: 74px;
   left: 12.5%;
 }
-/* line 35, ../sass/project.scss */
+/* line 17, ../sass/project.scss */
 .collections .collections a:hover {
   opacity: 0.5;
 }
-/* line 39, ../sass/project.scss */
+/* line 21, ../sass/project.scss */
 .collections .collections a {
   text-decoration: none;
 }
-/* line 45, ../sass/project.scss */
+/* line 27, ../sass/project.scss */
 .collections .block-fill {
   position: absolute;
   top: 0px;
@@ -43,7 +23,7 @@ a {
   background-size: cover;
   background-position: center;
 }
-/* line 61, ../sass/project.scss */
+/* line 43, ../sass/project.scss */
 .collections .collection-item {
   display: inline-block;
   height: 130px;
@@ -57,13 +37,13 @@ a {
   overflow: hidden;
   vertical-align: bottom;
 }
-/* line 76, ../sass/project.scss */
+/* line 58, ../sass/project.scss */
 .collections .collection-item .align-block {
   position: relative;
   z-index: 1;
   height: 100px;
 }
-/* line 80, ../sass/project.scss */
+/* line 62, ../sass/project.scss */
 .collections .collection-item .align-block .collection-item-title {
   color: #fff;
   margin-top: 10px;
@@ -73,7 +53,7 @@ a {
   line-height: 1em;
   height: 70px;
 }
-/* line 90, ../sass/project.scss */
+/* line 72, ../sass/project.scss */
 .collections .collection-item .align-block .kind {
   font-family: 'Ek Mukta', sans-serif;
   color: #fff;
