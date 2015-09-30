@@ -24,6 +24,8 @@ body {
 .header #title span {
   color: #fff;
   font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
 }
 
 /* line 30, ../sass/project.scss */
@@ -42,7 +44,7 @@ body {
 .projects #title span {
   font-size: 40px;
   font-family: 'Ubuntu', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 /* line 47, ../sass/project.scss */
 .projects .collections {
