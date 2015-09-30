@@ -1,41 +1,86 @@
-/*
-Error: Invalid CSS after "}": expected "}", was ""
-        on line 107 of /Users/scottso/scotthso.github.io/sass/project.scss
+@import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
+/* line 4, ../sass/project.scss */
+.collections body,
+a {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  height: 100%;
+}
 
-102: 
-103: 
-104: 
-105: 
-106: }
+/* line 19, ../sass/project.scss */
+.collections div {
+  height: 100%;
+}
 
-Backtrace:
-/Users/scottso/scotthso.github.io/sass/project.scss:107
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:1162:in `expected'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:1098:in `expected'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:1093:in `tok!'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:640:in `block'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:632:in `ruleset'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:657:in `block_child'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:42:in `parse'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/engine.rb:403:in `_to_tree'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/engine.rb:278:in `render'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 107 of /Users/scottso/scotthso.github.io/sass/project.scss\A \A 102: \A 103: \A 104: \A 105: \A 106: }"; }
+/* line 23, ../sass/project.scss */
+.collections {
+  margin-top: 74px;
+  left: 12.5%;
+}
+/* line 35, ../sass/project.scss */
+.collections .collections a:hover {
+  opacity: 0.5;
+}
+/* line 39, ../sass/project.scss */
+.collections .collections a {
+  text-decoration: none;
+}
+/* line 45, ../sass/project.scss */
+.collections .block-fill {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  border-radius: 5px;
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+/* line 61, ../sass/project.scss */
+.collections .collection-item {
+  display: inline-block;
+  height: 130px;
+  padding: 4px;
+  background-color: #333332;
+  background-position: center;
+  float: left;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+/* line 76, ../sass/project.scss */
+.collections .collection-item .align-block {
+  position: relative;
+  z-index: 1;
+  height: 100px;
+}
+/* line 80, ../sass/project.scss */
+.collections .collection-item .align-block .collection-item-title {
+  color: #fff;
+  margin-top: 10px;
+  font-family: 'Ek Mukta', sans-serif;
+  font-size: 10pt;
+  text-transform: uppercase;
+  line-height: 1em;
+  height: 70px;
+}
+/* line 90, ../sass/project.scss */
+.collections .collection-item .align-block .kind {
+  font-family: 'Ek Mukta', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 0;
+  margin-top: 0;
+  line-height: 0em;
+  height: 10px;
+}
