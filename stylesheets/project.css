@@ -20,9 +20,10 @@ html {
 .projects {
   float: left;
 }
-/* line 20, ../sass/project.scss */
+/* line 19, ../sass/project.scss */
 .projects #title {
   text-align: center;
+  padding: 20px;
 }
 /* line 22, ../sass/project.scss */
 .projects #title span {
@@ -30,7 +31,7 @@ html {
 }
 /* line 27, ../sass/project.scss */
 .projects .collections {
-  margin-top: 74px;
+  margin: 74px;
   left: 12.5%;
   float: left;
   overflow: visible;
