@@ -8,6 +8,7 @@
   margin-top: 74px;
   left: 12.5%;
   float: left;
+  overflow: visible;
 }
 /* line 12, ../sass/project.scss */
 .projects .collections .collections a:hover {
