@@ -1,18 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
 
 
-
+.projects {
+	float:left;
+	
 	.collections{   
-
 	margin-top: 74px;
-
 	left:12.5%;
-
-
-
-	    
-
-
+	float:left;
 
 	.collections a:hover{
 	opacity:0.5;
@@ -41,7 +36,7 @@
 
 		
 		.collection-item{
-		display: inline-block;
+		
 		height: 130px;
 		padding: 4px;
 		background-color: #333332;
@@ -86,3 +81,4 @@
 		}
 
 	}
+}

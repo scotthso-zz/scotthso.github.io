@@ -1,19 +1,24 @@
 @import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
-/* line 5, ../sass/project.scss */
-.collections {
+/* line 4, ../sass/project.scss */
+.projects {
+  float: left;
+}
+/* line 7, ../sass/project.scss */
+.projects .collections {
   margin-top: 74px;
   left: 12.5%;
+  float: left;
 }
-/* line 17, ../sass/project.scss */
-.collections .collections a:hover {
+/* line 12, ../sass/project.scss */
+.projects .collections .collections a:hover {
   opacity: 0.5;
 }
-/* line 21, ../sass/project.scss */
-.collections .collections a {
+/* line 16, ../sass/project.scss */
+.projects .collections .collections a {
   text-decoration: none;
 }
-/* line 27, ../sass/project.scss */
-.collections .block-fill {
+/* line 22, ../sass/project.scss */
+.projects .collections .block-fill {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -23,9 +28,8 @@
   background-size: cover;
   background-position: center;
 }
-/* line 43, ../sass/project.scss */
-.collections .collection-item {
-  display: inline-block;
+/* line 38, ../sass/project.scss */
+.projects .collections .collection-item {
   height: 130px;
   padding: 4px;
   background-color: #333332;
@@ -37,14 +41,14 @@
   overflow: hidden;
   vertical-align: bottom;
 }
-/* line 58, ../sass/project.scss */
-.collections .collection-item .align-block {
+/* line 53, ../sass/project.scss */
+.projects .collections .collection-item .align-block {
   position: relative;
   z-index: 1;
   height: 100px;
 }
-/* line 62, ../sass/project.scss */
-.collections .collection-item .align-block .collection-item-title {
+/* line 57, ../sass/project.scss */
+.projects .collections .collection-item .align-block .collection-item-title {
   color: #fff;
   margin-top: 10px;
   font-family: 'Ek Mukta', sans-serif;
@@ -53,8 +57,8 @@
   line-height: 1em;
   height: 70px;
 }
-/* line 72, ../sass/project.scss */
-.collections .collection-item .align-block .kind {
+/* line 67, ../sass/project.scss */
+.projects .collections .collection-item .align-block .kind {
   font-family: 'Ek Mukta', sans-serif;
   color: #fff;
   text-transform: uppercase;
