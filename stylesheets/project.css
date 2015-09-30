@@ -32,14 +32,11 @@
 .projects .collections .collection-item {
   height: 130px;
   padding: 4px;
-  background-color: #333332;
   background-position: center;
   float: left;
   border-radius: 5px;
   text-align: center;
-  position: relative;
   overflow: hidden;
-  vertical-align: bottom;
 }
 /* line 53, ../sass/project.scss */
 .projects .collections .collection-item .align-block {
