@@ -1,6 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
 
 
+.header {
+	height:150px;
+	background-color: #fff;
+	span {
+		color:#000;
+		text-align: center;
+	}
+}
+
 .projects {
 	float:left;
 	

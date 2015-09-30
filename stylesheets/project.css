@@ -1,24 +1,35 @@
 @import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
 /* line 4, ../sass/project.scss */
+.header {
+  height: 150px;
+  background-color: #fff;
+}
+/* line 7, ../sass/project.scss */
+.header span {
+  color: #000;
+  text-align: center;
+}
+
+/* line 13, ../sass/project.scss */
 .projects {
   float: left;
 }
-/* line 7, ../sass/project.scss */
+/* line 16, ../sass/project.scss */
 .projects .collections {
   margin-top: 74px;
   left: 12.5%;
   float: left;
   overflow: visible;
 }
-/* line 12, ../sass/project.scss */
+/* line 21, ../sass/project.scss */
 .projects .collections .collections a:hover {
   opacity: 0.5;
 }
-/* line 16, ../sass/project.scss */
+/* line 25, ../sass/project.scss */
 .projects .collections .collections a {
   text-decoration: none;
 }
-/* line 22, ../sass/project.scss */
+/* line 31, ../sass/project.scss */
 .projects .collections .block-fill {
   position: absolute;
   top: 0px;
@@ -29,7 +40,7 @@
   background-size: cover;
   background-position: center;
 }
-/* line 38, ../sass/project.scss */
+/* line 47, ../sass/project.scss */
 .projects .collections .collection-item {
   height: 200px;
   width: 25%;
@@ -37,7 +48,7 @@
   text-align: center;
   overflow: hidden;
 }
-/* line 51, ../sass/project.scss */
+/* line 60, ../sass/project.scss */
 .projects .collections .collection-item .image {
   background-color: #000;
   background-size: cover;
@@ -48,14 +59,14 @@
   position: relative;
   height: 130px;
 }
-/* line 63, ../sass/project.scss */
+/* line 72, ../sass/project.scss */
 .projects .collections .collection-item .details {
   position: absolute;
   z-index: 1;
   height: 100px;
   bottom: 0px;
 }
-/* line 69, ../sass/project.scss */
+/* line 78, ../sass/project.scss */
 .projects .collections .collection-item .details .collection-item-title {
   color: #fff;
   margin-top: 10px;
@@ -65,7 +76,7 @@
   line-height: 1em;
   height: 70px;
 }
-/* line 79, ../sass/project.scss */
+/* line 88, ../sass/project.scss */
 .projects .collections .collection-item .details .kind {
   font-family: 'Ek Mukta', sans-serif;
   color: #fff;
