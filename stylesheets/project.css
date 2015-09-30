@@ -85,7 +85,7 @@ body {
 }
 /* line 83, ../sass/project.scss */
 .projects .collections .collection-item .info .collection-item-title {
-  color: #fff;
+  color: #000;
   margin-top: 10px;
   font-family: 'Ek Mukta', sans-serif;
   font-size: 14pt;
@@ -96,7 +96,7 @@ body {
 /* line 93, ../sass/project.scss */
 .projects .collections .collection-item .info .kind {
   font-family: 'Ek Mukta', sans-serif;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   font-size: 10px;
   padding: 0;

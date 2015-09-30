@@ -26,7 +26,7 @@ body {
 
 .projects {
 	float:left;
-margin-left: auto;
+	margin-left: auto;
     margin-right: auto;
 	#title {
 		text-align: center;
@@ -81,7 +81,7 @@ margin-left: auto;
 				clear:both;
 
 				.collection-item-title{
-					color: #fff;
+					color: #000;
 					margin-top: 10px;
 					font-family: 'Ek Mukta', sans-serif;
 					font-size: 14pt;
@@ -92,7 +92,7 @@ margin-left: auto;
 					}
 				.kind {
 					font-family: 'Ek Mukta', sans-serif;
-					color: #fff;
+					color: #000;
 					text-transform: uppercase;
 					font-size: 10px;
 					padding: 0;
