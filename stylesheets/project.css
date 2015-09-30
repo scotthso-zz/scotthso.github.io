@@ -23,7 +23,7 @@ body {
 /* line 21, ../sass/project.scss */
 .header #title span {
   color: #fff;
-  font-size: 30px;
+  font-size: 38px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
 }
@@ -42,7 +42,7 @@ body {
 }
 /* line 38, ../sass/project.scss */
 .projects #title span {
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
 }
@@ -104,10 +104,11 @@ body {
   color: #000;
   line-height: 55px;
   font-family: 'Ek Mukta', sans-serif;
+  font-weight: 500;
   font-size: 20px;
   text-transform: uppercase;
 }
-/* line 110, ../sass/project.scss */
+/* line 111, ../sass/project.scss */
 .projects .collections .collection-item .info .kind {
   font-family: 'Ek Mukta', sans-serif;
   color: #000;
