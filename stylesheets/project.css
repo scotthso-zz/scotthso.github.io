@@ -21,38 +21,39 @@ body {
   color: #fff;
   font-size: 30px;
   vertical-align: middle;
+  display: inline-block;
 }
 
-/* line 26, ../sass/project.scss */
+/* line 27, ../sass/project.scss */
 .projects {
   float: left;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 30, ../sass/project.scss */
+/* line 31, ../sass/project.scss */
 .projects #title {
   text-align: center;
   padding: 20px;
 }
-/* line 33, ../sass/project.scss */
+/* line 34, ../sass/project.scss */
 .projects #title span {
   font-size: 40px;
 }
-/* line 38, ../sass/project.scss */
+/* line 39, ../sass/project.scss */
 .projects .collections {
   left: 12.5%;
   float: left;
   overflow: visible;
 }
-/* line 44, ../sass/project.scss */
+/* line 45, ../sass/project.scss */
 .projects .collections .collections a:hover {
   opacity: 0.5;
 }
-/* line 48, ../sass/project.scss */
+/* line 49, ../sass/project.scss */
 .projects .collections .collections a {
   text-decoration: none;
 }
-/* line 53, ../sass/project.scss */
+/* line 54, ../sass/project.scss */
 .projects .collections .collection-item {
   float: left;
   height: 245px;
@@ -61,7 +62,7 @@ body {
   overflow: hidden;
   padding: -2px;
 }
-/* line 61, ../sass/project.scss */
+/* line 62, ../sass/project.scss */
 .projects .collections .collection-item .image {
   background-color: #000;
   background-size: cover;
@@ -73,7 +74,7 @@ body {
   height: 130px;
   float: left;
 }
-/* line 74, ../sass/project.scss */
+/* line 75, ../sass/project.scss */
 .projects .collections .collection-item .info {
   position: relative;
   z-index: 1;
@@ -82,7 +83,7 @@ body {
   background-color: #fff;
   clear: both;
 }
-/* line 82, ../sass/project.scss */
+/* line 83, ../sass/project.scss */
 .projects .collections .collection-item .info .collection-item-title {
   color: #fff;
   margin-top: 10px;
@@ -92,7 +93,7 @@ body {
   line-height: 1em;
   height: 70px;
 }
-/* line 92, ../sass/project.scss */
+/* line 93, ../sass/project.scss */
 .projects .collections .collection-item .info .kind {
   font-family: 'Ek Mukta', sans-serif;
   color: #fff;
