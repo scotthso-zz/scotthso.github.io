@@ -68,9 +68,10 @@ body {
 		padding: 2px;
 
 			.shade {
-				background-color: #000;
+				background-color: rgba(0,0,0,0.5);
 				height: 180px;
 				opacity:0.5;
+				position: absolute;
 			}
 
 			.image {
