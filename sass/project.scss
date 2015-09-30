@@ -7,9 +7,13 @@ html {
 .header {
 	height:150px;
 	background-color: #000;
-	span {
-		color:#fff;
+	
+	#title {
 		text-align: center;
+		vertical-align: center;
+		span {
+			color:#fff;
+			}
 	}
 }
 
