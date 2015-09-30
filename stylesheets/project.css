@@ -86,6 +86,7 @@ body {
 /* line 83, ../sass/project.scss */
 .projects .collections .collection-item .info .collection-item-title {
   color: #000;
+  line-height: 55px;
   font-family: 'Ek Mukta', sans-serif;
   font-size: 16pt;
   text-transform: uppercase;
@@ -95,9 +96,5 @@ body {
   font-family: 'Ek Mukta', sans-serif;
   color: #000;
   text-transform: uppercase;
-  font-size: 10px;
-  padding: 0;
-  margin-top: 0;
-  line-height: 0em;
-  height: 10px;
+  font-size: 12px;
 }
