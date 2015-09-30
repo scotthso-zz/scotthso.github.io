@@ -1,0 +1,669 @@
+/******screen sizes******/
+$widescreen : 1320px;
+$landscape-tablet : 1024px;
+$portrait-tablet : 768px;
+$landscape-mobile : 640px;
+$portrait-mobile : 480px;
+
+.container{
+    width: $widescreen;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (max-width: $widescreen){
+        width: $landscape-tablet;
+    }
+
+    @media screen and (max-width: $landscape-tablet){
+        width: $portrait-tablet;
+    }
+
+    @media screen and (max-width: $portrait-tablet){
+        width: $landscape-mobile;
+    }
+
+    @media screen and (max-width: $landscape-mobile){
+        width: $portrait-mobile;
+    }
+
+    @media screen and (max-width: $portrait-mobile){
+        width: 100%
+    }
+}
+
+.sm-1, .sm-2, .sm-3, .sm-4, .sm-5, .sm-6, .sm-7, .sm-8, .sm-9, .sm-10, .sm-11, .sm-12, .sm-13, .sm-14, .sm-15, .sm-16,.xsm-1, .xsm-2, .xsm-3, .xsm-4, .xsm-5, .xsm-6, .xsm-7, .xsm-8, .xsm-9, .xsm-10, .xsm-11, .xsm-12, .xsm-13, .xsm-14, .xsm-15, .xsm-16,.md-1, .md-2, .md-3, .md-4, .md-5, .md-6, .md-7, .md-8, .md-9, .md-10, .md-11, .md-12, .md-13, .md-14, .md-15, .md-16,.xmd-1, .xmd-2, .xmd-3, .xmd-4, .xmd-5, .xmd-6, .xmd-7, .xmd-8, .xmd-9, .xmd-10, .xmd-11, .xmd-12, .xmd-13, .xmd-14, .xmd-15, .xmd-16,.lg-1, .lg-2, .lg-3, .lg-4, .lg-5, .lg-6, .lg-7, .lg-8, .lg-9, .lg-10, .lg-11, .lg-12, .lg-13, .lg-14, .lg-15, .lg-16,.xlg-1, .xlg-2, .xlg-3, .xlg-4, .xlg-5, .xlg-6, .xlg-7, .xlg-8, .xlg-9, .xlg-10, .xlg-11, .xlg-12, .xlg-13, .xlg-14, .xlg-15, .xlg-16{
+    float: left;
+    min-height: 1px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sm-1{
+    @media screen and (max-width: $portrait-mobile){
+        width: 6.25%;
+    }
+}
+
+.sm-2{
+    @media screen and (max-width: $portrait-mobile){
+        width: 12.5%;
+    }
+}
+
+.sm-3{
+    @media screen and (max-width: $portrait-mobile){
+        width: 18.75%;
+    }
+}
+
+.sm-4{
+    @media screen and (max-width: $portrait-mobile){
+        width: 25.0%;
+    }
+}
+
+.sm-5{
+    @media screen and (max-width: $portrait-mobile){
+        width: 31.25%;
+    }
+}
+
+.sm-6{
+    @media screen and (max-width: $portrait-mobile){
+        width: 37.5%;
+    }
+}
+
+.sm-7{
+    @media screen and (max-width: $portrait-mobile){
+        width: 43.75%;
+    }
+}
+
+.sm-8{
+    @media screen and (max-width: $portrait-mobile){
+        width: 50.0%;
+    }
+}
+
+.sm-9{
+    @media screen and (max-width: $portrait-mobile){
+        width: 56.25%;
+    }
+}
+
+.sm-10{
+    @media screen and (max-width: $portrait-mobile){
+        width: 62.5%;
+    }
+}
+
+.sm-11{
+    @media screen and (max-width: $portrait-mobile){
+        width: 68.75%;
+    }
+}
+
+.sm-12{
+    @media screen and (max-width: $portrait-mobile){
+        width: 75.0%;
+    }
+}
+
+.sm-13{
+    @media screen and (max-width: $portrait-mobile){
+        width: 81.25%;
+    }
+}
+
+.sm-14{
+    @media screen and (max-width: $portrait-mobile){
+        width: 87.5%;
+    }
+}
+
+.sm-15{
+    @media screen and (max-width: $portrait-mobile){
+        width: 93.75%;
+    }
+}
+
+.sm-16{
+    @media screen and (max-width: $portrait-mobile){
+        width: 100.0%;
+    }
+}
+
+.xsm-1{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 6.25%;
+    }
+}
+
+.xsm-2{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 12.5%;
+    }
+}
+
+.xsm-3{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 18.75%;
+    }
+}
+
+.xsm-4{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 25.0%;
+    }
+}
+
+.xsm-5{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 31.25%;
+    }
+}
+
+.xsm-6{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 37.5%;
+    }
+}
+
+.xsm-7{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 43.75%;
+    }
+}
+
+.xsm-8{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 50.0%;
+    }
+}
+
+.xsm-9{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 56.25%;
+    }
+}
+
+.xsm-10{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 62.5%;
+    }
+}
+
+.xsm-11{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 68.75%;
+    }
+}
+
+.xsm-12{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 75.0%;
+    }
+}
+
+.xsm-13{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 81.25%;
+    }
+}
+
+.xsm-14{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 87.5%;
+    }
+}
+
+.xsm-15{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 93.75%;
+    }
+}
+
+.xsm-16{
+    @media screen and (max-width: $landscape-mobile) and (min-width: $portrait-mobile+1){
+        width: 100.0%;
+    }
+}
+
+.md-1{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 6.25%;
+    }
+}
+
+.md-2{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 12.5%;
+    }
+}
+
+.md-3{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 18.75%;
+    }
+}
+
+.md-4{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 25.0%;
+    }
+}
+
+.md-5{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 31.25%;
+    }
+}
+
+.md-6{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 37.5%;
+    }
+}
+
+.md-7{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 43.75%;
+    }
+}
+
+.md-8{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 50.0%;
+    }
+}
+
+.md-9{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 56.25%;
+    }
+}
+
+.md-10{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 62.5%;
+    }
+}
+
+.md-11{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 68.75%;
+    }
+}
+
+.md-12{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 75.0%;
+    }
+}
+
+.md-13{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 81.25%;
+    }
+}
+
+.md-14{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 87.5%;
+    }
+}
+
+.md-15{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 93.75%;
+    }
+}
+
+.md-16{
+    @media screen and (max-width: $portrait-tablet) and (min-width: $landscape-mobile+1){
+        width: 100.0%;
+    }
+}
+
+.xmd-1{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 6.25%;
+    }
+}
+
+.xmd-2{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 12.5%;
+    }
+}
+
+.xmd-3{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 18.75%;
+    }
+}
+
+.xmd-4{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 25.0%;
+    }
+}
+
+.xmd-5{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 31.25%;
+    }
+}
+
+.xmd-6{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 37.5%;
+    }
+}
+
+.xmd-7{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 43.75%;
+    }
+}
+
+.xmd-8{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 50.0%;
+    }
+}
+
+.xmd-9{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 56.25%;
+    }
+}
+
+.xmd-10{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 62.5%;
+    }
+}
+
+.xmd-11{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 68.75%;
+    }
+}
+
+.xmd-12{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 75.0%;
+    }
+}
+
+.xmd-13{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 81.25%;
+    }
+}
+
+.xmd-14{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 87.5%;
+    }
+}
+
+.xmd-15{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 93.75%;
+    }
+}
+
+.xmd-16{
+    @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        width: 100.0%;
+    }
+}
+
+.lg-1{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 6.25%;
+    }
+}
+
+.lg-2{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 12.5%;
+    }
+}
+
+.lg-3{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 18.75%;
+    }
+}
+
+.lg-4{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 25.0%;
+    }
+}
+
+.lg-5{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 31.25%;
+    }
+}
+
+.lg-6{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 37.5%;
+    }
+}
+
+.lg-7{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 43.75%;
+    }
+}
+
+.lg-8{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 50.0%;
+    }
+}
+
+.lg-9{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 56.25%;
+    }
+}
+
+.lg-10{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 62.5%;
+    }
+}
+
+.lg-11{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 68.75%;
+    }
+}
+
+.lg-12{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 75.0%;
+    }
+}
+
+.lg-13{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 81.25%;
+    }
+}
+
+.lg-14{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 87.5%;
+    }
+}
+
+.lg-15{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 93.75%;
+    }
+}
+
+.lg-16{
+    @media screen and (max-width: $widescreen) and (min-width: $landscape-tablet+1){
+        width: 100.0%;
+    }
+}
+
+.xlg-1{
+    @media screen and (min-width: $widescreen+1){
+        width: 6.25%;
+    }
+}
+
+.xlg-2{
+    @media screen and (min-width: $widescreen+1){
+        width: 12.5%;
+    }
+}
+
+.xlg-3{
+    @media screen and (min-width: $widescreen+1){
+        width: 18.75%;
+    }
+}
+
+.xlg-4{
+    @media screen and (min-width: $widescreen+1){
+        width: 25.0%;
+    }
+}
+
+.xlg-5{
+    @media screen and (min-width: $widescreen+1){
+        width: 31.25%;
+    }
+}
+
+.xlg-6{
+    @media screen and (min-width: $widescreen+1){
+        width: 37.5%;
+    }
+}
+
+.xlg-7{
+    @media screen and (min-width: $widescreen+1){
+        width: 43.75%;
+    }
+}
+
+.xlg-8{
+    @media screen and (min-width: $widescreen+1){
+        width: 50.0%;
+    }
+}
+
+.xlg-9{
+    @media screen and (min-width: $widescreen+1){
+        width: 56.25%;
+    }
+}
+
+.xlg-10{
+    @media screen and (min-width: $widescreen+1){
+        width: 62.5%;
+    }
+}
+
+.xlg-11{
+    @media screen and (min-width: $widescreen+1){
+        width: 68.75%;
+    }
+}
+
+.xlg-12{
+    @media screen and (min-width: $widescreen+1){
+        width: 75.0%;
+    }
+}
+
+.xlg-13{
+    @media screen and (min-width: $widescreen+1){
+        width: 81.25%;
+    }
+}
+
+.xlg-14{
+    @media screen and (min-width: $widescreen+1){
+        width: 87.5%;
+    }
+}
+
+.xlg-15{
+    @media screen and (min-width: $widescreen+1){
+        width: 93.75%;
+    }
+}
+
+.xlg-16{
+    @media screen and (min-width: $widescreen+1){
+        width: 100.0%;
+    }
+}
+
+.hidden-xlg{
+    display: none;
+
+    @media screen and (max-width: $widescreen){
+        display: block;
+    }
+}
+
+.hidden-lg{
+    @media screen and (max-width: $widescreen){
+        display: none;
+    }
+
+    @media screen and (max-width: $landscape-tablet){
+        display: block;
+    }
+}
+
+.hidden-xmd{
+    @media screen and (max-width: $landscape-tablet){
+        display: none;
+    }
+
+    @media screen and (max-width: $portrait-tablet){
+        display: block;
+    }
+}
+
+.hidden-md{
+    @media screen and (max-width: $portrait-tablet){
+        display: none;
+    }
+
+    @media screen and (max-width: $landscape-mobile){
+        display: block;
+    }
+}
+
+.hidden-xsm{
+    @media screen and (max-width: $landscape-mobile){
+        display: none;
+    }
+
+    @media screen and (max-width: $portrait-mobile){
+        display: block;
+    }
+}
+
+.hidden-sm{
+    @media screen and (max-width: $portrait-mobile){
+        display: none;
+    }
+}
