@@ -8,10 +8,10 @@ body {
 .header {
 	height:150px;
 	background-color: #000;
-	
+	margin-bottom: 50px;
 	#title {
 		text-align: center;
-		vertical-align: center;
+		vertical-align: middle;
 		span {
 			color:#fff;
 			}
@@ -35,9 +35,9 @@ margin-left: auto;
 		left:12.5%;
 		float:left;
 		overflow: visible;
-	.collections a:hover{
-	opacity:0.5;
-	}
+			.collections a:hover{
+				opacity:0.5;
+			}
 
 	.collections a{
 	text-decoration:none;

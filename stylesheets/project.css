@@ -10,11 +10,12 @@ body {
 .header {
   height: 150px;
   background-color: #000;
+  margin-bottom: 50px;
 }
 /* line 12, ../sass/project.scss */
 .header #title {
   text-align: center;
-  vertical-align: center;
+  vertical-align: middle;
 }
 /* line 15, ../sass/project.scss */
 .header #title span {
