@@ -61,10 +61,12 @@
 				position: relative;
 			}
 
-			.align-block{
-				position: relative;
+			.details{
+				position: absolute;
 				z-index:1;
 				height:100px;
+				bottom: 0px;
+
 				.collection-item-title{
 					color: #fff;
 					margin-top: 10px;

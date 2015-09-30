@@ -51,13 +51,14 @@
   position: relative;
 }
 /* line 64, ../sass/project.scss */
-.projects .collections .collection-item .align-block {
-  position: relative;
+.projects .collections .collection-item .details {
+  position: absolute;
   z-index: 1;
   height: 100px;
+  bottom: 0px;
 }
-/* line 68, ../sass/project.scss */
-.projects .collections .collection-item .align-block .collection-item-title {
+/* line 70, ../sass/project.scss */
+.projects .collections .collection-item .details .collection-item-title {
   color: #fff;
   margin-top: 10px;
   font-family: 'Ek Mukta', sans-serif;
@@ -66,8 +67,8 @@
   line-height: 1em;
   height: 70px;
 }
-/* line 78, ../sass/project.scss */
-.projects .collections .collection-item .align-block .kind {
+/* line 80, ../sass/project.scss */
+.projects .collections .collection-item .details .kind {
   font-family: 'Ek Mukta', sans-serif;
   color: #fff;
   text-transform: uppercase;
