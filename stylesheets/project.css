@@ -71,7 +71,7 @@ body {
   box-shadow: 0px 0px 2px 1px rgba(44, 54, 67, 0.1);
   backface-visibility: hidden;
   position: relative;
-  height: 150px;
+  height: 180px;
   float: left;
 }
 /* line 75, ../sass/project.scss */
