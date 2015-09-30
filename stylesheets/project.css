@@ -2,11 +2,11 @@
 /* line 4, ../sass/project.scss */
 .header {
   height: 150px;
-  background-color: #fff;
+  background-color: #000;
 }
 /* line 7, ../sass/project.scss */
 .header span {
-  color: #000;
+  color: #fff;
   text-align: center;
 }
 
