@@ -51,13 +51,12 @@ margin-left: auto;
 
 		
 		.collection-item{
-		
+		float:left;
 		height: 245px;
-		width:23%;
-		
+		width:25%;
 		text-align: center;
 		overflow: hidden;
-		padding:4px;
+		padding:-2px;
 
 			.image {
 				
