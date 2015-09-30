@@ -73,7 +73,6 @@ margin-left: auto;
 		float:left;
 		text-align: center;
 		overflow: hidden;
-		background-color: #fff;
 		padding:4px;
 
 			.image {
@@ -93,6 +92,7 @@ margin-left: auto;
 				z-index:1;
 				height:100px;
 				bottom: 0px;
+				background-color: #fff;
 
 				.collection-item-title{
 					color: #fff;
