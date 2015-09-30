@@ -1,36 +1,19 @@
 /*
-Error: Invalid CSS after "	background-color": expected ";", was ": #333332;"
-        on line 65 of /Users/scottso/scotthso.github.io/sass/project.scss
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 107 of /Users/scottso/scotthso.github.io/sass/project.scss
 
-60: 	
-61: 	.collection-item{
-62: 	display: inline-block;
-63: 	height: 130px;
-64: 	padding: 4px
-65: 	background-color: #333332;
-66: 	background-position: center;
-67: 	float:left;
-68: 	
-69: 	border-radius: 5px;
-70: 	
+102: 
+103: 
+104: 
+105: 
+106: }
 
 Backtrace:
-/Users/scottso/scotthso.github.io/sass/project.scss:65
+/Users/scottso/scotthso.github.io/sass/project.scss:107
 /Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:1162:in `expected'
 /Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:1098:in `expected'
 /Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:1093:in `tok!'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:758:in `block in try_declaration'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:1138:in `call'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:1138:in `rethrow'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:763:in `try_declaration'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:693:in `declaration_or_ruleset'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:658:in `block_child'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:639:in `block'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:658:in `block_child'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
-/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:639:in `block'
+/Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:640:in `block'
 /Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:632:in `ruleset'
 /Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:657:in `block_child'
 /Users/scottso/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
@@ -55,4 +38,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"	background-color\": expected \";\", was \": #333332;\"\A         on line 65 of /Users/scottso/scotthso.github.io/sass/project.scss\A \A 60: 	\A 61: 	.collection-item{\A 62: 	display: inline-block;\A 63: 	height: 130px;\A 64: 	padding: 4px\A 65: 	background-color: #333332;\A 66: 	background-position: center;\A 67: 	float:left;\A 68: 	\A 69: 	border-radius: 5px;\A 70: 	"; }
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 107 of /Users/scottso/scotthso.github.io/sass/project.scss\A \A 102: \A 103: \A 104: \A 105: \A 106: }"; }
