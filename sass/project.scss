@@ -11,14 +11,17 @@ body {
 	height:150px;
 	background-color: #000;
 	margin-bottom: 50px;
+
 	#title {
 		text-align: center;
-		
+		display: table-cell;
+		vertical-align: middle;
+		width:100%;
+		height:150px;
 		span {
 			color:#fff;
 			font-size: 30px;
-			vertical-align: middle;
-			display: inline-block;
+			
 		
 			}
 	}
