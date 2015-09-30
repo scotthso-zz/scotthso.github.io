@@ -9,7 +9,7 @@ Error: Invalid CSS after "	background-color": expected ";", was ": #333332;"
 64: 	padding: 4px
 65: 	background-color: #333332;
 66: 	background-position: center;
-67: 	
+67: 	float:left;
 68: 	
 69: 	border-radius: 5px;
 70: 	
@@ -55,4 +55,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"	background-color\": expected \";\", was \": #333332;\"\A         on line 65 of /Users/scottso/scotthso.github.io/sass/project.scss\A \A 60: 	\A 61: 	.collection-item{\A 62: 	display: inline-block;\A 63: 	height: 130px;\A 64: 	padding: 4px\A 65: 	background-color: #333332;\A 66: 	background-position: center;\A 67: 	\A 68: 	\A 69: 	border-radius: 5px;\A 70: 	"; }
+  content: "Error: Invalid CSS after \"	background-color\": expected \";\", was \": #333332;\"\A         on line 65 of /Users/scottso/scotthso.github.io/sass/project.scss\A \A 60: 	\A 61: 	.collection-item{\A 62: 	display: inline-block;\A 63: 	height: 130px;\A 64: 	padding: 4px\A 65: 	background-color: #333332;\A 66: 	background-position: center;\A 67: 	float:left;\A 68: 	\A 69: 	border-radius: 5px;\A 70: 	"; }
