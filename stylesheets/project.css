@@ -78,7 +78,7 @@ body {
 .projects .collections .collection-item .info {
   position: relative;
   z-index: 1;
-  height: 100px;
+  height: 120px;
   bottom: 0px;
   background-color: #fff;
   clear: both;
