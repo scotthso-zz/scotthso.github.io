@@ -41,6 +41,8 @@ body {
 		}
 	}
 
+
+
 	.collections{   
 
 		left:12.5%;
@@ -55,6 +57,7 @@ body {
 			text-decoration:none;
 			}
 
+
 		
 		.collection-item{
 		float:left;
@@ -63,6 +66,12 @@ body {
 		text-align: center;
 		overflow: hidden;
 		padding: 2px;
+
+			.shade {
+				background-color: #000;
+				height: 180px;
+				opacity:0.5;
+			}
 
 			.image {
 				
