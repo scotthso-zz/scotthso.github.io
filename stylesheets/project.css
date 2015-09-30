@@ -68,12 +68,14 @@ body {
 }
 /* line 70, ../sass/project.scss */
 .projects .collections .collection-item .shade {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   height: 180px;
   opacity: 0.5;
   position: absolute;
+  float: left;
+  width: 24.5%;
 }
-/* line 77, ../sass/project.scss */
+/* line 79, ../sass/project.scss */
 .projects .collections .collection-item .image {
   background-color: #000;
   background-size: cover;
@@ -85,7 +87,7 @@ body {
   height: 180px;
   float: left;
 }
-/* line 90, ../sass/project.scss */
+/* line 92, ../sass/project.scss */
 .projects .collections .collection-item .info {
   position: relative;
   z-index: 1;
@@ -94,7 +96,7 @@ body {
   background-color: #fff;
   clear: both;
 }
-/* line 98, ../sass/project.scss */
+/* line 100, ../sass/project.scss */
 .projects .collections .collection-item .info .collection-item-title {
   color: #000;
   line-height: 55px;
@@ -102,7 +104,7 @@ body {
   font-size: 20px;
   text-transform: uppercase;
 }
-/* line 107, ../sass/project.scss */
+/* line 109, ../sass/project.scss */
 .projects .collections .collection-item .info .kind {
   font-family: 'Ek Mukta', sans-serif;
   color: #000;
