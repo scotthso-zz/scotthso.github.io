@@ -67,7 +67,6 @@ body {
 .projects .collections .collection-item {
   height: 245px;
   width: 23%;
-  float: left;
   text-align: center;
   overflow: hidden;
   padding: 4px;
