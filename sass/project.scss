@@ -49,6 +49,17 @@
 		
 		overflow: hidden;
 
+			.image {
+				border-radius: 3px;
+				background-color: #000;
+				background-size: cover;
+				background-position: center center;
+				background-repeat: no-repeat;
+				box-shadow: 0px 0px 2px 1px rgba(44, 54, 67, 0.1);
+				transform: translateZ(0px);
+				backface-visibility: hidden;
+				position: relative;
+			}
 
 			.align-block{
 				position: relative;
