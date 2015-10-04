@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
+
+.img-circular{
+ width: 200px;
+ height: 200px;
+ background-image: url('/img/me.png');
+ background-size: cover;
+ 
+border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+    
+    position: absolute;
+   padding-right: 8px;
+    top: 10%;
+   left: 50%;
+
+    margin-left: -100px;
+    margin-bottom: 5px;
+    
+}
+
+#paragraph {
+ 
+    position: absolute;
+    margin-top: 290px;
+    left: 50%;
+    margin-left: -225px;
+    width: 30em;
+    
+}
+#me p {
+
+font-family: 'Ek Mukta', sans-serif;
+    font-size: 10pt;
+
+}

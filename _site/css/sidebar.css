@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Ek+Mukta:300);
+
+#sidebar ul {
+ 
+    list-style-type: none;
+ 
+}
+
+#sidebar li {
+ 
+    padding-top: 20px; 
+    padding-bottom: 10px;
+    
+    margin-left: 45px;
+    
+    text-align: center;
+}
+
+#sidebar a {
+    
+font-size:9pt;
+font-family: 'Ek Mukta', sans-serif;
+text-decoration: none;  
+color: #000;
+}
+
+#sidebar a:hover {
+ 
+    text-decoration: underline;
+    color: #000;
+}
+
+.verticalLine {
+    border-left: thin solid #000;
+}
