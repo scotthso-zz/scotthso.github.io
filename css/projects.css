@@ -31,14 +31,13 @@ margin-top: 74px;
 
 left:34.375%;
 
-	 @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
-        left: 18.75%;
-    }
-
-
-    
-
 }
+
+ @media screen and (max-width: $landscape-tablet) and (min-width: $portrait-tablet+1){
+        #collections{   
+			left:25%;
+		}
+    }
 
 #collections a:hover{
 opacity:0.5;
