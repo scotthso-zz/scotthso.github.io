@@ -28,39 +28,44 @@ body {
   font-weight: 700;
 }
 
-/* line 30, ../sass/project.scss */
+/* line 31, ../sass/project.scss */
+#container #collections {
+  left: 34.75%;
+}
+
+/* line 36, ../sass/project.scss */
 .projects {
   float: left;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 34, ../sass/project.scss */
+/* line 40, ../sass/project.scss */
 .projects #title {
   text-align: center;
   padding: 20px;
   margin-bottom: 60px;
 }
-/* line 38, ../sass/project.scss */
+/* line 44, ../sass/project.scss */
 .projects #title span {
   font-size: 30px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
 }
-/* line 47, ../sass/project.scss */
+/* line 53, ../sass/project.scss */
 .projects .collections {
   left: 12.5%;
   float: left;
   overflow: visible;
 }
-/* line 53, ../sass/project.scss */
+/* line 59, ../sass/project.scss */
 .projects .collections .collections a:hover {
   opacity: 0.5;
 }
-/* line 57, ../sass/project.scss */
+/* line 63, ../sass/project.scss */
 .projects .collections .collections a {
   text-decoration: none;
 }
-/* line 63, ../sass/project.scss */
+/* line 69, ../sass/project.scss */
 .projects .collections .collection-item {
   float: left;
   height: 265px;
@@ -69,7 +74,7 @@ body {
   overflow: hidden;
   padding: 2px;
 }
-/* line 71, ../sass/project.scss */
+/* line 77, ../sass/project.scss */
 .projects .collections .collection-item .shade {
   background-color: rgba(0, 0, 0, 0.8);
   height: 180px;
@@ -78,7 +83,7 @@ body {
   float: left;
   width: 24.5%;
 }
-/* line 80, ../sass/project.scss */
+/* line 86, ../sass/project.scss */
 .projects .collections .collection-item .image {
   background-color: #000;
   background-size: cover;
@@ -90,7 +95,7 @@ body {
   height: 180px;
   float: left;
 }
-/* line 93, ../sass/project.scss */
+/* line 99, ../sass/project.scss */
 .projects .collections .collection-item .info {
   position: relative;
   z-index: 1;
@@ -99,7 +104,7 @@ body {
   background-color: #fff;
   clear: both;
 }
-/* line 101, ../sass/project.scss */
+/* line 107, ../sass/project.scss */
 .projects .collections .collection-item .info .collection-item-title {
   color: #000;
   line-height: 55px;
@@ -108,7 +113,7 @@ body {
   font-size: 20px;
   text-transform: uppercase;
 }
-/* line 111, ../sass/project.scss */
+/* line 117, ../sass/project.scss */
 .projects .collections .collection-item .info .kind {
   font-family: 'Ek Mukta', sans-serif;
   color: #000;
